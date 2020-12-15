@@ -15,7 +15,7 @@
 	 top:0;
 	  position:fixed;
 	  z-index:50;
-}
+	}
 
 	.sample-top{
 	width:100%;
@@ -34,40 +34,41 @@
 			text-decoration: none;
 			float:left;
 			list-style:none;
+			right:0;
 			}
 				.header-logo a{
 					text-decoration: none;
 					color: #8b4513;
 					}
+
 	.header-list li{
-	list-style: none;
-	float:left;
-	font-color:#fffacd;
+	 list-style: none;
+	 /* float:right ; */
+	right:0;
+	position:absolute;
+	/*  position:relative; */
+	display:flex;
 	padding: 33px 20px;
-	color: #8b4513;
+	/*  margin:0 0 0 auto; */
 	}
 
-	.ul1 {
-		/* position:fixed; */
-		right:0;
-		}
-	ul2{
-		justify-content:flex-end;
-		}
 
 	.header-list a{
 		text-decoration: none;
 		color: #8b4513;
+		text-align: right;
 		}
-	ul{
-		margin: 0;
-		padding: 0;
-		text-decoration: none;
-		}
-	#NEWS,#SNS,#Product {
+		#NEWS,#SNS,#Product {
 		margin-top:-100px;
 		padding-top:100px;
 		}
+
+		ul{
+		margin: 0;
+		padding: 0;
+/* 		text-decoration: none; */
+		}
+
 
 
 .main{
@@ -85,10 +86,14 @@
     padding: 0;
 	text-align:center;
 	}
-			@madeia screen and (win-width:1024){
-
-
+		/* 	@madeia screen and (win-width:1024){
 			}
+			@media screen and (min-width:0px){
+			}
+			@media screen and (min-width:300px){
+			}
+			@media screen and (min-width:600px){
+			}	 */
 	.copy-centainer{
 		text-align:center;
 		}
@@ -166,7 +171,6 @@
 		radial-gradient(#fffacd 50%, transparent 0);
 	 background-position: 0 0, 10px 10px;
 	 background-size: 20px 20px;
-
 	height:1000px;
 	text-align:center;
 	}
@@ -194,15 +198,22 @@
 			justify-content:center;
 			width:100%;
 			height:350px;
-			padding : 20px;
+			/* padding : 20px; */
+			 box-sizing:border-box;
 			}
+
 			@madeia screen and (win-width:1024){
 
+			}
+			@media screen and (min-width:0px){
 
 			}
+			@media screen and (min-width:300px){
 
+												}
+			@media screen and (min-width:600px){
 
-
+			}
 
  .contact-SNS {
 	width: 100%;
