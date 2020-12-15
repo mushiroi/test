@@ -43,13 +43,14 @@
 
 	.header-list li{
 	 list-style: none;
-	 /* float:right ; */
+
 	right:0;
 	position:absolute;
-	/*  position:relative; */
-	display:flex;
 	padding: 33px 20px;
-	/*  margin:0 0 0 auto; */
+	/* float:right ; これ入れると表示順序変わる */
+	/* display:inline flex; */
+	/*  position:relative; */
+	  margin:10 0 0 auto;
 	}
 
 
@@ -59,8 +60,8 @@
 		text-align: right;
 		}
 		#NEWS,#SNS,#Product {
-		margin-top:-100px;
-		padding-top:100px;
+	/* 	margin-top:-100px;
+		padding-top:100px; */
 		}
 
 		ul{
