@@ -3,7 +3,7 @@ body{
 	background-color:#F1D87C;
 	width:100%;
 	margin:90px 0px 0px 0px;
-	padding: 0;
+	/* padding: 0; */
 	top:90px;
 }
 .cp_bgpattern12 {
@@ -44,7 +44,7 @@ body{
 	list-style: none;
 	float:right;
 	font-color:#fffacd;
-	padding: 33px 20px;
+	padding: 33px 0px;/*  20→0にへんこう */
 	}
 	ul{
 		margin: 0;
@@ -64,7 +64,18 @@ body{
 		}
 		h1{
 		color:#8b4513;
-		 width:100%;
+		 /* width:100%; */
+		}
+		img{
+			text-align:center;
+		padding-bottom:80px;
+			max-width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
 		}
 		 p {
 		 	padding:10px;

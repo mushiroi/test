@@ -66,8 +66,20 @@ body{
 			margin-top:20px;
 			}
 			 p {
-		 	padding:20px;
+		 	padding:20 0 0 0;
+		 	margin:20 0 0 0;
 		 	white-space:pre;
+			}
+			img{
+				text-align:center;
+		padding-bottom:80px;
+			max-width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
 			}
 
 .footer{

@@ -7,6 +7,13 @@
 	/* padding: 0; */
 	 top:90px;
 }
+		@media (max-width:767px){
+			body{
+				width:400px;
+			}
+		}
+
+
 
 .header{
 	background-color:#ffdab9;
@@ -35,27 +42,47 @@
 			float:left;
 			list-style:none;
 			right:0;
+			margin: 0;
+		/* 	padding-right: 15px;	いったん消す */
+
 			}
 				.header-logo a{
 					text-decoration: none;
 					color: #8b4513;
 					}
+		@media (max-width:767px){
+			header{
+			hight:150px;
+			}
+
+			}
+
+/* .ul1 {
+	position:fixed;
+	position:absolute;
+	right:0;
+	} */
+	.header-list ul{
+					float:right;}
+
 
 	.header-list li{
 	 list-style: none;
-
-	right:0;
-	position:absolute;
-	padding: 33px 20px;
-	/* float:right ; これ入れると表示順序変わる */
-	/* display:inline flex; */
-	/*  position:relative; */
-	  margin:10 0 0 auto;
+	 float:right ;
+	 display:inline;
+	 color:#fffacd;
+	 padding:33px 20px;
+	 floto:left;
+	 margin:10 0 0 auto;
+	/* right:0;
+	position:absolute;  padding: 33px 20px;
+	ここから float:right ; これ入れると表示順序変わるからダメ display:inline flex; position:relative; ここまで  margin:10 0 0 auto;
+	  float:right;*/
 	}
 
 
 	.header-list a{
-		text-decoration: none;
+		 text-decoration: none;
 		color: #8b4513;
 		text-align: right;
 		}
@@ -67,8 +94,9 @@
 		ul{
 		margin: 0;
 		padding: 0;
-/* 		text-decoration: none; */
+		/* 		text-decoration: none; */
 		}
+
 
 
 
@@ -81,20 +109,15 @@
 		background-size: 20px 20px;
      width:100%;
 	height:1400px;
-	padding:100px 80px;
+	padding:100px 0px/*  80pxYajirushi0 いったん消す*/;
 	box-sizing: border-box;
 	margin: 0;
     padding: 0;
 	text-align:center;
 	}
-		/* 	@madeia screen and (win-width:1024){
-			}
-			@media screen and (min-width:0px){
-			}
-			@media screen and (min-width:300px){
-			}
-			@media screen and (min-width:600px){
-			}	 */
+
+
+
 	.copy-centainer{
 		text-align:center;
 		}
@@ -125,8 +148,6 @@
 		-o-box-sizing: border-box;
 		-ms-box-sizing: border-box;
 					}
-		/*  	@media screen and (min-width:768px){
-			}*/
 
 		.top-text{
 			margin-top:50px;}
@@ -199,22 +220,18 @@
 			justify-content:center;
 			width:100%;
 			height:350px;
-			/* padding : 20px; */
+			padding : 20px;
 			 box-sizing:border-box;
 			}
 
-			@madeia screen and (win-width:1024){
-
-			}
-			@media screen and (min-width:0px){
-
-			}
-			@media screen and (min-width:300px){
-
-												}
-			@media screen and (min-width:600px){
-
-			}
+	 @media (max-width:767px){
+		.contact-item {
+			float:none;
+		}
+		.dog{
+			display:block;
+		}
+	}
 
  .contact-SNS {
 	width: 100%;
@@ -235,7 +252,7 @@
 				display:flex;
 				justify-content:center;
 				}
-				.contact-SNS li{
+			.contact-SNS li{
 				padding:0px 50px;
 				height:550px;
 				list-style: none
@@ -246,7 +263,7 @@
 				padding-bottom:30px;
 				}
 				.twitter {
-					 background-color: #ffff;
+					background-color: #ffff;
 					padding : 1em 1em;
 					margin: 2em 0;
 					border:	double 8px #000000;
@@ -264,6 +281,9 @@
 					margin-top:60px;
 					 margin-left:10%;
 					}
+		@media (max-width:767px){
+
+		}
 
 
 
