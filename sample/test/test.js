@@ -14,3 +14,21 @@ $(function(){
   });
  });
 });
+
+
+
+
+var $text, $textCurrent, $counter;
+window.onload = function () {
+    $text = document.getElementById( "sample2" ).firstChild.nodeValue;
+    displayOneByOne();
+}
+function displayOneByOne() {
+    $textCurrent = document.getElementById( "sample2" ).firstChild.nodeValue;
+    if( $textCurrent.length == $text.length ){
+        document.getElementById( "sample2" ).innerHTML = '';
+        $counter = 0;
+    }
+    document.getElementById( "sample2" ).innerHTML = $text.substr( 0, ++$counter ) + '<br />';
+    setTimeout( 'displayOneByOne()', 300 );
+}

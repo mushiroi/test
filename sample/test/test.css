@@ -9,7 +9,7 @@
 }
 
 .header{
-	background-color:#ffdab9;
+	 background-color:#ffdab9;
 	height:100px;
 	width:100%;
 	top:0;
@@ -84,7 +84,7 @@
 ヘッダー画面のサイズ
 ==================================*/
 
-/*
+
 @media (max-width:1024px){
 	.header{
 	background-color:#008b8b;
@@ -100,11 +100,11 @@
 	.body{
 		width:400px;
 	}
-} */
+}
 @media (max-width:641px){
-/* 	.header{
+ 	.header{
 		background-color:#ff6347;
-		} */
+		}
 	.header-list ul{
 	margin-top:10px;
 	}
@@ -133,6 +133,22 @@
     padding: 0;
 	text-align:center;
 	}
+
+#sample2 {
+    width: 300px;
+    padding: 30px;
+    font-size: 30px;
+   /*  background-color: red; */
+    color: #000000;
+   /*  text-align: left; */
+    border-radius: 10px;
+    font-family:arial;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
 @media (max-width:1024px){
 	.main{
 		 height:1200px;
